@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
 ">
     <bean id="tipService" class="lab2.TipService">
-        <constructor-arg  ref="baggageService"/>
+        <constructor-arg  ref="foodService"/>
     </bean>
     
     <bean id="baggageService" class="lab2.BaggageServiceTipCalculator">
